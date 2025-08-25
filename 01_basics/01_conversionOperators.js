@@ -28,3 +28,37 @@ let someNumber=33;
 let stringNumber=String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber)
+
+
+
+
+
+
+// -----------------Operations----------------
+
+console.log(2**2)
+str1="hello"
+str2=" Suchi"
+str3=str1+str2
+console.log(str3)
+
+console.log(1+2)//3
+console.log(1+"2")//12
+console.log("1"+2)//12
+console.log("1"+"2")//12
+console.log("1"+2+2) //122
+console.log(1+2+"2") //32
+
+// details in ECMA Script
+
+console.log(true)
+console.log(+true)
+
+//console.log(true+) error
+console.log("") // Nothing
+console.log(+"") //0
+
+let n1 , n2, n3
+n1=n2=n3=2+2
+
+//prefix and postfix
